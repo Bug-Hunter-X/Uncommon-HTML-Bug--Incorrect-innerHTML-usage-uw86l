@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //Correct usage of innerHTML with a string value
+    const num = 123;
+    document.getElementById("myDiv").innerHTML = num.toString(); 
+  </script>
+</body>
+</html>
